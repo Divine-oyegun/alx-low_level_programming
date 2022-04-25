@@ -17,7 +17,8 @@ void reverse_array(int *a, int n)
 	init = a;
 	final = a;
 	n -= 1;
-	while (i < n)												i += 1;
+	while (i < n)
+		i += 1;
 	while (j <= i)
 	{
 		aux = *(init + j);
